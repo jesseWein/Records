@@ -1,0 +1,3 @@
+﻿User | John | juser@something.com | Red | 1/12/1985
+Jones | Martha | mjones@tardis.com | Green | 8/14/2001
+Smith | John | jsmith@galifrey.com | Blue | 11/23/1963
