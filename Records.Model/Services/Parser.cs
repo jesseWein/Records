@@ -7,6 +7,7 @@ public static class Parser
 {
     public static IEnumerable<Person> ParsePersons(string Filename, string type) =>
         ParsePersons(File.OpenRead(Filename), type);
+    
     public static IEnumerable<Person> ParsePersons(Stream stream, string type)
     {
         List<Person> Results = new List<Person>();
