@@ -8,8 +8,8 @@ using static Records.Model.Extensions.EnumerablePersonExtensions;
 var dataFile1 = "Data1.txt";
 
 var data1 = Parser.ParsePersons(dataFile1,"pipe");
-
 printData(data1);
+
 
 
 void printData(IEnumerable<Person> data)
