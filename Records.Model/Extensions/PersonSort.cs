@@ -1,6 +1,6 @@
 ﻿using Records.Model.Models;
 
-namespace Records.Model.SortExtensions;
+namespace Records.Model.Extensions;
 
 public static class PersonSort
 {
