@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Records.API.Data;
 using Records.Model.Models;
 using Records.Model.Services;
 using static Records.Model.Extensions.PersonSort;
@@ -10,13 +11,17 @@ namespace Records.API.Controllers;
 [Route("[controller]")]
 public class RecordsController: ControllerBase
 {
+    private readonly PeopleContext _context;
+
     private readonly ILogger<RecordsController> _logger;
     //data store
-    private List<Person> Persons = new List<Person>();
+    private List<Person> Persons;
 
-    public RecordsController(ILogger<RecordsController> logger)
+    public RecordsController(PeopleContext context,ILogger<RecordsController> logger)
     {
+        _context = context;
         _logger = logger;
+        Persons = _context.Persons;
     }
 
     [HttpPost]
@@ -26,7 +31,7 @@ public class RecordsController: ControllerBase
         {
             var newPerson = Parser.ParsePersons(getStream(data), getDataType(data));
             Persons.Add(newPerson.First());
-            return Created("",null);
+            return Created("",newPerson.First());
         }
         catch (IndexOutOfRangeException ioe)
         {
