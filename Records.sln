@@ -4,6 +4,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Records.Model", "Records.Mo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Records.ParseAndSort", "Records.ParseAndSort\Records.ParseAndSort.csproj", "{40E3DEAE-2D26-4237-ACDE-454D1D740C5E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Records.Test", "Records.Test\Records.Test.csproj", "{ECE8E8E3-6953-4E31-87A4-673F7D4A6CEE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +20,9 @@ Global
 		{40E3DEAE-2D26-4237-ACDE-454D1D740C5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{40E3DEAE-2D26-4237-ACDE-454D1D740C5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{40E3DEAE-2D26-4237-ACDE-454D1D740C5E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ECE8E8E3-6953-4E31-87A4-673F7D4A6CEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ECE8E8E3-6953-4E31-87A4-673F7D4A6CEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ECE8E8E3-6953-4E31-87A4-673F7D4A6CEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ECE8E8E3-6953-4E31-87A4-673F7D4A6CEE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

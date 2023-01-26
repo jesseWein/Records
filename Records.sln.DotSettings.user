@@ -1,0 +1,7 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=6bcb06c9_002D61cf_002D4965_002D8ecb_002D58a7c3b18c62/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="Parser_ParsePersons_Pipe_Pass" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;xUnit::ECE8E8E3-6953-4E31-87A4-673F7D4A6CEE::net6.0::Records.Test.TestParse.Parser_ParsePersons_Pipe_Pass&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::ECE8E8E3-6953-4E31-87A4-673F7D4A6CEE::net6.0::Records.Test.TestParse.Parser_ParsePersons_Pipe_IndexOutOfRange&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>

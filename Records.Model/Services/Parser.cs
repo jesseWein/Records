@@ -5,10 +5,12 @@ namespace Records.Model.Services;
 
 public static class Parser
 {
-    public static IEnumerable<Person> ParsePersons(string Filename, string type)
+    public static IEnumerable<Person> ParsePersons(string Filename, string type) =>
+        ParsePersons(File.OpenRead(Filename), type);
+    public static IEnumerable<Person> ParsePersons(Stream stream, string type)
     {
         List<Person> Results = new List<Person>();
-        using (TextFieldParser parser = new TextFieldParser(Filename))
+        using (TextFieldParser parser = new TextFieldParser(stream))
         {
             parser.TextFieldType = FieldType.Delimited;
             switch (type)
